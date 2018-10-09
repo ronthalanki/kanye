@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Spongebob Case",
+	"description": "Turn normal text into sPOnGEboB tEXt.",
+	"version": "1",
+	"author": "Sairanjith (Ron) Thalanki",
+	"browser_action": {
+		"default_icon": "spongebob.png",
+		"default_title": "sPOnGEboB CaSE",
+		"default_popup": "popup.html"
+	},
+ 	"permissions": ["activeTab"]
+}
