@@ -23,4 +23,17 @@ function spongebobify() {
 	}
     document.getElementById('result').textContent = output;
 }
+
+function vaporwaveify() {
+	var input = document.getElementById("input").value;
+	var output = "";
+
+	for (var i = 0; i < input.length; i++) {
+		output += input.charAt(i).toUpperCase() + " ";
+	}
+	document.getElementById('result').textContent = output;
+}
+
+
+document.getElementById('vaporwave').onclick = vaporwaveify;
 document.getElementById('spongebob').onclick = spongebobify;

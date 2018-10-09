@@ -1,12 +1,12 @@
 {
 	"manifest_version": 2,
-	"name": "Spongebob Case",
-	"description": "Turn normal text into sPOnGEboB tEXt.",
+	"name": "Meme Case",
+	"description": "Change the format of your text to sPOnGEboB Case, V A P O R W A V E, etc.",
 	"version": "1",
 	"author": "Sairanjith (Ron) Thalanki",
 	"browser_action": {
 		"default_icon": "spongebob.png",
-		"default_title": "sPOnGEboB CaSE",
+		"default_title": "Meme Case",
 		"default_popup": "popup.html"
 	},
  	"permissions": ["activeTab"]
