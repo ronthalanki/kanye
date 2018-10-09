@@ -1,7 +1,18 @@
-function spongebobify() {
-	var input = document.getElementById("input").value;
-	var flag = false;
+//helper methods
+function getInput() {
+	return document.getElementById("input").value;
+}
 
+function setOutput(output) {
+	document.getElementById('result').textContent = output;
+
+}
+
+//transform text methods
+function spongebobify() {
+	var input = getInput();
+	
+	var flag = false;
 	while (!flag) {
 		countUpper = 0;
 		//generating string with random upper/lower casing
@@ -21,17 +32,17 @@ function spongebobify() {
 			flag = true;
 		}
 	}
-    document.getElementById('result').textContent = output;
+	setOutput(output);
 }
 
 function vaporwaveify() {
-	var input = document.getElementById("input").value;
+	var input = getInput();
 	var output = "";
 
 	for (var i = 0; i < input.length; i++) {
 		output += input.charAt(i).toUpperCase() + " ";
 	}
-	document.getElementById('result').textContent = output;
+	setOutput(output);
 }
 
 
