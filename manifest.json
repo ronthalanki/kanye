@@ -1,13 +1,15 @@
 {
 	"manifest_version": 2,
-	"name": "Meme Case",
-	"description": "Change the format of your text to sPOnGEboB Case, V A P O R W A V E, etc.",
+	"name": "Kanye a Day",
+	"description": "Displays a Kanye Quote Every Day",
 	"version": "1",
 	"author": "Sairanjith (Ron) Thalanki",
 	"browser_action": {
-		"default_icon": "spongebob.png",
-		"default_title": "Meme Case",
-		"default_popup": "popup.html"
+   		"default_icon": "kanye.png",
+   		"default_title": "What Would Kanye Do?"
+ 	},
+	"chrome_url_overrides" : {
+  		"newtab": "newtab.html"
 	},
  	"permissions": ["activeTab"]
 }
