@@ -94,6 +94,7 @@ var quote_array = ["And with me, I don't give a f**k, bro; it is what it is. I'm
  "You should only believe about 90 percent of what I say. As a matter of fact, don't even believe anything that I'm saying at all. I could be completely f**king with you, and the world, the entire time."];
 
 function pick_quote() {
-	return quote_array[Math.floor(Math.random()*quote_array.length)];
+	var date = new Date();
+	return quote_array[(date.getDate() * date.getMonth()) % quote_array.length];
 }
 document.getElementById("quote").textContent = pick_quote();
