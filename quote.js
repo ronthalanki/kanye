@@ -95,6 +95,6 @@ var quote_array = ["And with me, I don't give a f**k, bro; it is what it is. I'm
 
 function pick_quote() {
 	var date = new Date();
-	return quote_array[(date.getDate() * date.getMonth()) % quote_array.length];
+	return quote_array[Math.floor(date.getTime() / (24 * 60 * 60 * 1000), 1) % quote_array.length] + " - Kanye West";
 }
 document.getElementById("quote").textContent = pick_quote();
