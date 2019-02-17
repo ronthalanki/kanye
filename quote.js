@@ -82,7 +82,7 @@ var quote_array = ["And with me, I don't give a f**k, bro; it is what it is. I'm
  "There are some lame fake accounts trying to make Kanye-isms that are not Mark Twain level.",
  "There's nothing I really wanted to do in life that I wasn't able to get good at. That's my skill. I'm not really specifically talented at anything except for the ability to learn. That's what I do. That's what I'm here for.",
  "They say you can rap about anything except for Jesus, that means guns, sex, lies, video tapes, but if I talk about God my record won't get played Huh?",
- "Visiting my mind is like visiting the Hermès factory. Sh*t is real.",
+ "Visiting my mind is like visiting the Hermes factory. Sh*t is real.",
  "We all self-conscious. I'm just the first to admit it.",
  "We were on the jet, flying back... and we were watching Mean Girls. And that's how we party.",
  "When I think of competition it's like I try to create against the past. I think about Michelangelo and Picasso, you know, the pyramids.",
