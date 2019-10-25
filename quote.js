@@ -91,7 +91,8 @@ var quote_array = ["And with me, I don't give a f**k, bro; it is what it is. I'm
  "Would you believe in what you believe in if you were the only one who believed it?",
  "Y'all are acting like this ain't the most beautiful woman of all time. Wait a second, wait a second - I'm talking about arguably of human existence. The top 10 of human existence... I don't give a f**k what type of jacket she got on.",
  "You don't have to be scared of me, because I am loyal. Why are people so scared of creative ideas and so scared of truth? All I want to do is do good.",
- "You should only believe about 90 percent of what I say. As a matter of fact, don't even believe anything that I'm saying at all. I could be completely f**king with you, and the world, the entire time."];
+ "You should only believe about 90 percent of what I say. As a matter of fact, don't even believe anything that I'm saying at all. I could be completely f**king with you, and the world, the entire time."
+ "George Bush doesn't care about black people."];
 
 function pick_quote() {
 	var date = new Date();
